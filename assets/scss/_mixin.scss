@@ -1,0 +1,22 @@
+@mixin headerTop-width{
+    max-width: 94%;
+    margin:35px auto 0;
+}
+
+@mixin content-width{
+     /* max-width:1110px;  */
+     max-width:70%; 
+    margin:0 auto;
+}
+
+@mixin search-width {
+    max-width:1110px;  
+    margin: 0 auto;
+}
+
+@mixin button{
+    background-color: var(--orange);
+        color: var(--white);
+        text-transform: uppercase;
+        padding: 18px 26px;
+}
