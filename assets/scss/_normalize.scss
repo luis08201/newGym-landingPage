@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-*{
+
+*,
+*::before,
+*::after{
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    font-size: 16px;
 }
 
 :root{
@@ -13,6 +19,16 @@
     --white:#fff;
     --gray:#8a8b8d;
     --black:#161418;
-    --font-openSans:'Open Sans',
+    --font-Montserrat:'Montserrat',
         sans-serif;
+
+    /* Transition */
+    --animation:0.8s;
+}
+
+body {
+    font-family: 'Open Sans',
+        sans-serif;
+    font-size: 1rem;
+    background-color: var(--soft-white);
 }
